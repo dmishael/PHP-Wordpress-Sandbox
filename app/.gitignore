@@ -1,0 +1,54 @@
+app/public/local.php
+
+# After your first deploy and all of your files are already
+# on your web host you could uncomment the following items
+# app/public/wp-content/uploads/
+# app/public/wp-admin
+# app/public/wp-includes
+
+# You could also list the indidivual WordPress system files that
+# live in the root of our folder, for example, here are just a few
+# app/public/index.php
+# app/public/license.txt
+# app/public/readme.html
+# app/public/wp-activate.php
+# app/public/wp-blog-header.php
+# so on and so forth
+
+
+# Here is an example of how you could ignore the plugins folder
+# and then use the exclamation point to un-ignore only certain plugins
+# that do not auto-update and that you DO want to keep in Git.
+ app/public/wp-content/plugins/
+# !app/public/wp-content/plugins/advanced-custom-fields-pro/
+
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp/
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
