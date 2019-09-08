@@ -30,8 +30,8 @@ if (file_exists(dirname(__FILE__) . '/local.php')) {
 	define( 'DB_HOST', 'localhost' );
 } else {
 	//live db settings
-	define( 'DB_NAME', 'danm1526_unidb' );
-	define( 'DB_USER', 'danm1526_wp933' );
+	define( 'DB_NAME', 'danielm6_universitydb' );
+	define( 'DB_USER', 'danielm6_23' );
 	define( 'DB_PASSWORD', 'Dmish8391!' );
 	define( 'DB_HOST', 'localhost' );
 
